@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn  # Includes StandardScaler, LabelEncoder, etc.
+xgboost
+streamlit
+matplotlib  # For plotting ROC curves and other visualizations
+joblib # For saving models and transformers
