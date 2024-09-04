@@ -30,11 +30,14 @@ This project performs credit risk analysis using the XGBoost classifier. The goa
    ```bash
    git clone https://github.com/your-username/credit-risk-analysis.git
 2. **Navigate to the project directory:**
-    ```cd credit-risk-analysis
+    ```bash
+    cd credit-risk-analysis
 3. **Install the required packages:**
-    ```pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 4.  **Ensure your requirements.txt includes the following dependencies:**
-    ```joblib
+    ```bash
+    joblib
     matplotlib
     pandas
     seaborn
@@ -52,14 +55,10 @@ Prepare the Dataset:
 
 Ensure your dataset is clean, with all missing values handled.
 The target variable Credit_Score is encoded using LabelEncoder.
-Train the Model:
+ **Train the Model:**
+```bash
+    python train_model.py
 
-Run the following command to train the model and evaluate its performance:
-
-bash
-Copy code
-python train_model.py
-Evaluate the Model:
 
 The model's accuracy, confusion matrix, and ROC AUC score will be displayed. The ROC curves for each class will be plotted.
 
@@ -93,12 +92,12 @@ The trained model and scaler are saved for future use.
 Streamlit Deployment
 This project has been deployed using Streamlit, allowing for an interactive web interface where users can input their data and receive predictions.
 
-Run the Streamlit App:
+**Run the Streamlit App:**
 
 To start the Streamlit app, run the following command in your terminal:
 
-bash
-Copy code
+```bash
+
 streamlit run app.py
 Make sure that your app.py script is correctly set up to load the saved model (xgb_model.pkl) and scaler (scaler.pkl).
 
