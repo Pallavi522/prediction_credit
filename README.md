@@ -67,29 +67,29 @@ Save the Model:
 The trained model and scaler are saved as xgb_model.pkl and scaler.pkl, respectively.
 
 Code Explanation
-Imports:
+**Imports:**
 
 Necessary libraries like pandas, seaborn, matplotlib, scikit-learn, and xgboost are imported.
-Loading the Dataset:
+**Loading the Dataset:**
 
 The dataset is loaded using pandas.read_csv().
-Data Preprocessing:
+**Data Preprocessing:**
 
 Missing values are dropped.
 The target variable Credit_Score is encoded using LabelEncoder.
 Features are converted to dummy variables to handle categorical data.
 The features are then scaled using StandardScaler.
-Model Training:
+**Model Training:**
 
 The XGBClassifier is trained using the processed data.
-Model Evaluation:
+**Model Evaluation:**
 
 The model's performance is evaluated using accuracy, confusion matrix, and ROC AUC score.
 The ROC curve is plotted for each class.
-Model Saving:
+**Model Saving:**
 
 The trained model and scaler are saved for future use.
-Streamlit Deployment
+**Streamlit Deployment**
 This project has been deployed using Streamlit, allowing for an interactive web interface where users can input their data and receive predictions.
 
 **Run the Streamlit App:**
@@ -97,7 +97,6 @@ This project has been deployed using Streamlit, allowing for an interactive web 
 To start the Streamlit app, run the following command in your terminal:
 
 ```bash
-
 streamlit run app.py
 Make sure that your app.py script is correctly set up to load the saved model (xgb_model.pkl) and scaler (scaler.pkl).
 
