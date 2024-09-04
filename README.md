@@ -56,7 +56,7 @@ Prepare the Dataset:
 Ensure your dataset is clean, with all missing values handled.
 The target variable Credit_Score is encoded using LabelEncoder.
  **Train the Model:**
-```bash
+
     python train_model.py
 
 
