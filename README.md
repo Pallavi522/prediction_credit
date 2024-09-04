@@ -17,7 +17,6 @@ This project performs credit risk analysis using the XGBoost classifier. The goa
 - [Overview](#overview)
 - [Installation](#installation)
 - [Dataset](#dataset)
-- [Usage](#usage)
 - [Code Explanation](#code-explanation)
 - [Streamlit Deployment](#streamlit-deployment)
 - [Results](#results)
@@ -66,7 +65,7 @@ Save the Model:
 
 The trained model and scaler are saved as xgb_model.pkl and scaler.pkl, respectively.
 
-Code Explanation
+## Code Explanation
 **Imports:**
 
 Necessary libraries like pandas, seaborn, matplotlib, scikit-learn, and xgboost are imported.
@@ -89,7 +88,7 @@ The ROC curve is plotted for each class.
 **Model Saving:**
 
 The trained model and scaler are saved for future use.
-**Streamlit Deployment**
+## Streamlit Deployment
 This project has been deployed using Streamlit, allowing for an interactive web interface where users can input their data and receive predictions.
 
 **Run the Streamlit App:**
@@ -105,7 +104,7 @@ Using the Web App:
 Open your web browser and go to http://localhost:8501.
 Input the necessary features for prediction.
 View the predicted credit score category and the model's evaluation metrics.
-Results
+## Results
 Accuracy: The model's accuracy is displayed in the console.
 Confusion Matrix: The confusion matrix is provided for further analysis.
 ROC AUC Score: The ROC AUC score is calculated for multi-class classification using the One-vs-Rest (OvR) strategy.
