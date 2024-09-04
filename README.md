@@ -96,7 +96,7 @@ This project has been deployed using Streamlit, allowing for an interactive web 
 
 To start the Streamlit app, run the following command in your terminal:
 
-```bash
+
 streamlit run app.py
 Make sure that your app.py script is correctly set up to load the saved model (xgb_model.pkl) and scaler (scaler.pkl).
 
